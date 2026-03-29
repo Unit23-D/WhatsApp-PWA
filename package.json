@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-pwa",
+  "version": "1.0.0",
+  "description": "WhatsApp-style PWA UI with Liquid Glass",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "node server/index.js",
+    "start": "node server/index.js"
+  },
+  "author": "Johann",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

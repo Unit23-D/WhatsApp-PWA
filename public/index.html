@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="color-scheme" content="dark light" />
+  <title>WhatsApp PWA</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="app">
+
+    <!-- HEADER -->
+    <header class="header glass-panel">
+      <h1>Chats</h1>
+      <div class="header-actions">
+        <button class="icon-btn">⋯</button>
+        <button class="icon-btn">📷</button>
+        <button class="icon-btn green">＋</button>
+      </div>
+    </header>
+
+    <!-- SEARCH -->
+    <div class="search-bar">
+      <input type="text" placeholder="Ask Meta AI or Search" />
+    </div>
+
+    <!-- FILTER PILLS -->
+    <div class="filters">
+      <span class="pill active">All</span>
+      <span class="pill">Unread 7</span>
+      <span class="pill">Favorites 3</span>
+      <span class="pill">Groups 3</span>
+    </div>
+
+    <!-- CHAT LIST -->
+    <main class="chat-list">
+      <div class="chat-item">
+        <img src="https://i.pravatar.cc/100?img=1"/>
+        <div class="chat-info">
+          <div class="top">
+            <h3>Vishal Trent</h3>
+            <span>Yesterday</span>
+          </div>
+          <p>🎤 Voice message (0:07)</p>
+        </div>
+      </div>
+
+      <div class="chat-item">
+        <img src="https://i.pravatar.cc/100?img=2"/>
+        <div class="chat-info">
+          <div class="top">
+            <h3>Jasmine Assam</h3>
+            <span>Friday</span>
+          </div>
+          <p>😴</p>
+        </div>
+      </div>
+
+      <!-- add more items -->
+    </main>
+
+    <!-- BOTTOM NAV (GLASS) -->
+    <nav class="bottom-nav glass" aria-label="Primary">
+      <button class="nav-item active" type="button" aria-current="page">
+        <span aria-hidden="true">💬</span>
+        <p>Chats</p>
+      </button>
+      <button class="nav-item" type="button">
+        <span aria-hidden="true">🔳</span>
+        <p>QR</p>
+      </button>
+      <button class="nav-item" type="button">
+        <span aria-hidden="true">👤</span>
+        <p>Profile</p>
+      </button>
+    </nav>
+
+  </div>
+
+<script src="app.js"></script>
+</body>
+</html>
